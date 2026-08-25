@@ -1,27 +1,183 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Jenny Liu | Engineering Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jenny Liu | Engineering Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Jenny Liu</h1>
-    <p>Cornell University | Mechanical Engineering</p>
+  <header class="hero">
+    <nav>
+      <div class="logo">Jenny Liu</div>
 
-    <h2>Engineering Projects</h2>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="resume.pdf">Resume</a>
+        <a href="https://github.com/YOUR-USERNAME" target="_blank">GitHub</a>
+      </div>
+    </nav>
 
-    <h3>EV Emergency Door Release Mechanism</h3>
-    <p>
-        Designed and prototyped an independent emergency
-        door-release mechanism for electric vehicles.
-    </p>
+    <div class="hero-content">
+      <p class="eyebrow">CORNELL ENGINEERING</p>
 
-    <h3>Vehicle Stability Research</h3>
-    <p>
-        Developed and tested simulation models using
-        RecurDyn and MATLAB.
-    </p>
+      <h1>
+        Jenny Liu
+      </h1>
+
+      <h2>
+        Mechanical Engineering · Robotics · Design
+      </h2>
+
+      <p class="intro">
+        I build and study mechanical systems through prototyping,
+        simulation, robotics, and experimental testing.
+      </p>
+
+      <div class="hero-buttons">
+        <a class="button primary" href="#projects">View Projects</a>
+        <a class="button secondary" href="resume.pdf">Resume</a>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+
+    <section id="projects" class="section">
+      <p class="section-label">SELECTED WORK</p>
+      <h2>Engineering Projects</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-image placeholder">
+            EV Door Release
+          </div>
+
+          <div class="project-content">
+            <p class="project-number">01</p>
+
+            <h3>Emergency EV Door Release Mechanism</h3>
+
+            <p class="tags">
+              SolidWorks · Prototyping · Python · Experimental Testing
+            </p>
+
+            <p>
+              Designed and experimentally tested an independent
+              emergency door-release mechanism for electric vehicle
+              fire conditions.
+            </p>
+
+            <a href="projects/ev-door.html">View Project →</a>
+          </div>
+        </article>
+
+
+        <article class="project-card">
+          <div class="project-image placeholder">
+            Vehicle Stability
+          </div>
+
+          <div class="project-content">
+            <p class="project-number">02</p>
+
+            <h3>Electric-Tracked Vehicle Stability Research</h3>
+
+            <p class="tags">
+              RecurDyn · MATLAB · Simulation · Physical Testing
+            </p>
+
+            <p>
+              Developed a virtual prototype and analyzed physical
+              prototype acceleration data across multiple operating
+              conditions.
+            </p>
+
+            <a href="projects/vehicle-stability.html">View Project →</a>
+          </div>
+        </article>
+
+
+        <article class="project-card">
+          <div class="project-image placeholder">
+            Drinking Fountain
+          </div>
+
+          <div class="project-content">
+            <p class="project-number">03</p>
+
+            <h3>Drinking Fountain Redesign</h3>
+
+            <p class="tags">
+              Autodesk Inventor · Blender · Industrial Design
+            </p>
+
+            <p>
+              Redesigned a drinking fountain to improve accessibility
+              and usability through mechanical and product-design
+              changes.
+            </p>
+
+            <a href="projects/drinking-fountain.html">View Project →</a>
+          </div>
+        </article>
+
+
+        <article class="project-card">
+          <div class="project-image placeholder">
+            SNAP-HAR
+          </div>
+
+          <div class="project-content">
+            <p class="project-number">04</p>
+
+            <h3>SNAP-HAR</h3>
+
+            <p class="tags">
+              Machine Learning · Signal Processing · Wearable Sensors
+            </p>
+
+            <p>
+              Developed a machine-learning framework for robust
+              human-activity recognition under noisy sensor conditions.
+            </p>
+
+            <a href="projects/snap-har.html">View Project →</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+
+    <section id="about" class="section about">
+      <p class="section-label">ABOUT</p>
+
+      <h2>Engineering through building and testing.</h2>
+
+      <p>
+        I am an engineering student at Cornell University interested
+        in mechanical design, robotics, intelligent systems, and
+        experimental engineering.
+      </p>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <p>Jenny Liu · Cornell University</p>
+
+    <div>
+      <a href="mailto:YOUR-EMAIL">Email</a>
+      <a href="https://github.com/YOUR-USERNAME" target="_blank">GitHub</a>
+    </div>
+  </footer>
 
 </body>
 </html>
