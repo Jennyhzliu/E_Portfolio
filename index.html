@@ -1,183 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jenny Liu | Engineering Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-  <header class="hero">
-    <nav>
-      <div class="logo">Jenny Liu</div>
-
-      <div class="nav-links">
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="resume.pdf">Resume</a>
-        <a href="https://github.com/jennyhzliu" target="_blank">GitHub</a>
-      </div>
-    </nav>
-
-    <div class="hero-content">
-      <p class="eyebrow">CORNELL ENGINEERING</p>
-
-      <h1>
-        Jenny Liu
-      </h1>
-
-      <h2>
-        Intended Mechanical Engineering
-      </h2>
-
-      <p class="intro">
-        I build and study mechanical systems through prototyping,
-        simulation, robotics, and experimental testing.
-      </p>
-
-      <div class="hero-buttons">
-        <a class="button primary" href="#projects">View Projects</a>
-        <a class="button secondary" href="resume.pdf">Resume</a>
-      </div>
+  <!-- TOP NAV -->
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">JL</div>
+      <div class="brand-title">Engineering Portfolio</div>
     </div>
+
+    <nav class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="resume.pdf" target="_blank">Resume</a>
+    </nav>
   </header>
 
 
-  <main>
+  <!-- MAIN LAYOUT -->
+  <main class="page">
 
-    <section id="projects" class="section">
-      <p class="section-label">SELECTED WORK</p>
-      <h2>Engineering Projects</h2>
+    <!-- LEFT SIDEBAR -->
+    <aside class="profile">
 
-      <div class="project-grid">
+      <img
+        class="profile-photo"
+        src="images/profile.jpg"
+        alt="Jenny Liu"
+      />
 
-        <article class="project-card">
-          <div class="project-image placeholder">
-            EV Door Release
-          </div>
-          <a href="projects/ev-door.html">View Project →</a>
+      <h1>Jenny Liu</h1>
 
-          <div class="project-content">
-            <p class="project-number">01</p>
-
-            <h3>Emergency EV Door Release Mechanism</h3>
-
-            <p class="tags">
-              SolidWorks · Prototyping · Python · Experimental Testing
-            </p>
-
-            <p>
-              Designed and experimentally tested an independent
-              emergency door-release mechanism for electric vehicle
-              fire conditions.
-            </p>
-
-            <a href="projects/ev-door.html">View Project →</a>
-          </div>
-        </article>
-
-
-        <article class="project-card">
-          <div class="project-image placeholder">
-            Vehicle Stability
-          </div>
-
-          <div class="project-content">
-            <p class="project-number">02</p>
-
-            <h3>Electric-Tracked Vehicle Stability Research</h3>
-
-            <p class="tags">
-              RecurDyn · MATLAB · Simulation · Physical Testing
-            </p>
-
-            <p>
-              Developed a virtual prototype and analyzed physical
-              prototype acceleration data across multiple operating
-              conditions.
-            </p>
-
-            <a href="projects/vehicle-stability.html">View Project →</a>
-          </div>
-        </article>
-
-
-        <article class="project-card">
-          <div class="project-image placeholder">
-            Drinking Fountain
-          </div>
-
-          <div class="project-content">
-            <p class="project-number">03</p>
-
-            <h3>Drinking Fountain Redesign</h3>
-
-            <p class="tags">
-              Autodesk Inventor · Blender · Industrial Design
-            </p>
-
-            <p>
-              Redesigned a drinking fountain to improve accessibility
-              and usability through mechanical and product-design
-              changes.
-            </p>
-
-            <a href="projects/drinking-fountain.html">View Project →</a>
-          </div>
-        </article>
-
-
-        <article class="project-card">
-          <div class="project-image placeholder">
-            SNAP-HAR
-          </div>
-
-          <div class="project-content">
-            <p class="project-number">04</p>
-
-            <h3>SNAP-HAR</h3>
-
-            <p class="tags">
-              Machine Learning · Signal Processing · Wearable Sensors
-            </p>
-
-            <p>
-              Developed a machine-learning framework for robust
-              human-activity recognition under noisy sensor conditions.
-            </p>
-
-            <a href="projects/snap-har.html">View Project →</a>
-          </div>
-        </article>
-
-      </div>
-    </section>
-
-
-    <section id="about" class="section about">
-      <p class="section-label">ABOUT</p>
-
-      <h2>Engineering through building and testing.</h2>
-
-      <p>
-        I am an engineering student at Cornell University interested
-        in mechanical design, robotics, intelligent systems, and
-        experimental engineering.
+      <p class="profile-role">
+        Engineering Student at Cornell University
       </p>
+
+      <div class="profile-info">
+        <p>📍 Ithaca, NY</p>
+
+        <p>
+          ✉
+          <a href="mailto:hl2633@cornell.edu">
+            Email
+          </a>
+        </p>
+
+        <p>
+          ◉
+          <a href="https://github.com/jennyhzliu" target="_blank">
+            GitHub
+          </a>
+        </p>
+      </div>
+
+    </aside>
+
+
+    <!-- RIGHT CONTENT -->
+    <section class="content">
+
+      <!-- ABOUT -->
+      <section id="about" class="intro">
+
+        <h2>Welcome!</h2>
+
+        <p>
+          I'm Jenny Liu, an engineering student at Cornell University
+          interested in mechanical design, robotics, intelligent systems,
+          and experimental engineering.
+        </p>
+
+        <p>
+          My work spans mechanical prototyping, simulation, robotics,
+          industrial design, sensor-based machine learning, and engineering
+          research.
+        </p>
+
+      </section>
+
+
+      <!-- PROJECTS -->
+      <section id="projects" class="projects">
+
+        <h2>Projects</h2>
+
+        <p class="project-intro">
+          Click on a project below to learn more about the design process,
+          testing, technical tools, and results.
+        </p>
+
+        <div class="project-grid">
+
+
+          <!-- PROJECT 1 -->
+          <a class="project-card" href="projects/ev-door.html">
+
+            <img
+              src="images/ev-door/cover.jpg"
+              alt="Emergency EV Door Release Mechanism"
+            />
+
+            <div class="project-overlay">
+              <h3>EV Emergency Door Release</h3>
+              <p>SolidWorks · Prototyping · Python</p>
+            </div>
+
+          </a>
+
+
+          <!-- PROJECT 2 -->
+          <a class="project-card" href="projects/vehicle-stability.html">
+
+            <img
+              src="images/vehicle-stability/cover.jpg"
+              alt="Vehicle Stability Research"
+            />
+
+            <div class="project-overlay">
+              <h3>Vehicle Stability Research</h3>
+              <p>RecurDyn · MATLAB · Testing</p>
+            </div>
+
+          </a>
+
+
+          <!-- PROJECT 3 -->
+          <a class="project-card" href="projects/drinking-fountain.html">
+
+            <img
+              src="images/drinking-fountain/cover.jpg"
+              alt="Drinking Fountain Redesign"
+            />
+
+            <div class="project-overlay">
+              <h3>Drinking Fountain Redesign</h3>
+              <p>Inventor · Blender · Industrial Design</p>
+            </div>
+
+          </a>
+
+
+          <!-- PROJECT 4 -->
+          <a class="project-card" href="projects/snap-har.html">
+
+            <img
+              src="images/snap-har/cover.jpg"
+              alt="SNAP-HAR"
+            />
+
+            <div class="project-overlay">
+              <h3>SNAP-HAR</h3>
+              <p>Machine Learning · Sensor Data</p>
+            </div>
+
+          </a>
+
+
+          <!-- PROJECT 5 -->
+          <a class="project-card" href="projects/dlc.html">
+
+            <img
+              src="images/dlc/cover.jpg"
+              alt="DLC Space Tribology Research"
+            />
+
+            <div class="project-overlay">
+              <h3>DLC Space Tribology</h3>
+              <p>Tribology · Materials · Research</p>
+            </div>
+
+          </a>
+
+
+          <!-- PROJECT 6 -->
+          <a class="project-card" href="projects/robotics.html">
+
+            <img
+              src="images/robotics/cover.jpg"
+              alt="VEX Robotics"
+            />
+
+            <div class="project-overlay">
+              <h3>VEX Robotics</h3>
+              <p>Design · Build · Programming · Testing</p>
+            </div>
+
+          </a>
+
+        </div>
+
+      </section>
+
     </section>
 
   </main>
 
 
   <footer>
-    <p>Jenny Liu · Cornell University</p>
-
-    <div>
-      <a href="mailto:YOUR-EMAIL">Email</a>
-      <a href="https://github.com/YOUR-USERNAME" target="_blank">GitHub</a>
-    </div>
+    <p>© 2026 Jenny Liu</p>
   </footer>
 
 </body>
